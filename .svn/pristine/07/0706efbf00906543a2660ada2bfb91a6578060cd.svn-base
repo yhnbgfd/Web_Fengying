@@ -1,0 +1,55 @@
+body{
+	padding: 0px;
+	margin:0px;
+	font-family: Arial,Verdana, Helvetica, sans-serif;
+	font-size:13px;
+}
+
+a{
+	TEXT-DECORATION:none;
+	color:#252a74;
+}
+
+#site{
+	width: 980px;
+	margin: auto;
+	padding: 0px;
+}
+
+#topmenu{
+	padding:10px 0px 0px 0px;
+	height: 80px;
+}
+
+#header{
+	height: 260px;
+	padding:10px 0px 5px 0px;
+	margin: 0px;
+}
+
+#left{
+	width: 200px;
+	float:left;
+	padding:0px 0px 0px 5px;
+}
+#left h3{
+	color:#000000;
+	background: url(../images/left.gif);
+}
+#right{
+	float:right;
+	width: 760px;
+	padding:0px 7px 0px 0px;
+}
+
+#rightframe{
+	padding:10px 50px 10px 10px;
+	line-height:30px;
+	font-size:15px;
+}
+
+#footer{
+	padding: 10px 0px 0px 0px;
+	clear: both;
+	text-align:center;
+}

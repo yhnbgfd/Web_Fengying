@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>广州丰颖通讯网络技术有限公司</title>
+<link href="../../css/style.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+#rightframe table tr td {
+	font-size: 14px;
+}
+#rightframe table a {
+	TEXT-DECORATION:none;
+}
+</style>
+</head>
+<body>
+<div id="rightframe">
+<table width="100%" border="0" cellspacing="10">
+  <tr>
+    <td width="25%" height="107" align="center" valign="middle"><p><a href="CiscoASA5500.html"><img src="../../../images/product/cisco/2009061009034992196.jpg" width="158" /></a></p></td>
+    <td width="25%" align="center" valign="middle"><a href="Catalyst4500.html"><img src="../../../images/product/cisco/2009061009030191043.jpg" width="136" /></a></td>
+    <td width="25%" align="center" valign="middle"><a href="Catalyst3750.html"><img src="../../../images/product/cisco/2009061009023956545.jpg" width="136" /></a></td>
+    <td width="25%" align="center" valign="middle"><a href="Catalyst2960.html"><img src="../../../images/product/cisco/2009061009014981870.jpg" width="164" /></a></td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="top"><a href="CiscoASA5500.html">Cisco ASA5500系列防火墙</a></td>
+    <td align="center" valign="top"><a href="Catalyst4500.html">Catalyst 4500系列交换机</a></td>
+    <td align="center" valign="top"><a href="Catalyst3750.html">Catalyst 3750系列交换机</a></td>
+    <td align="center" valign="top"><a href="Catalyst2960.html">Catalyst 2960 系列交换机</a></td>
+  </tr>
+  <tr>
+    <td height="123" align="center" valign="middle"><img src="../../../images/product/cisco/2009061009010159074.jpg" width="158" /></td>
+    <td align="center">&nbsp;</td>
+    <td align="center" valign="middle">&nbsp;</td>
+    <td align="center" valign="middle">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="40" align="center" valign="top"><a href="CiscoCatalyst3560.html">Cisco Catalyst 3560系列交换机</a></td>
+    <td align="center">&nbsp;</td>
+    <td align="center" valign="middle">&nbsp;</td>
+    <td align="center" valign="middle">&nbsp;</td>
+  </tr>
+</table>
+</div>
+</body>
+</html>

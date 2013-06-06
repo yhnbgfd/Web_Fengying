@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Insert title here</title>
+<link href="../../../css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="rightframe" style="line-height:30px;font-size:15px;">
+<a href="news20120330.html">无线BYOD来临 Aruba安全管理两手抓（2012-03-30）</a><br />
+<a href="news20120327.html">Aruba：BYOD现象蔓延助力增长 WiFi将与无线蜂窝平分秋色（2012-03-27）</a><br />
+<a href="news20120312.html">Aruba推出接入管理系统ClearPass 助力BYOD（2012-03-12）</a><br />
+</div>
+</body>
+</html>

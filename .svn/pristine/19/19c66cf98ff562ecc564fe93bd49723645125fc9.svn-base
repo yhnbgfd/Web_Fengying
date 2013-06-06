@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>丰颖公司</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div id="site">
+  <div id="topmenu">
+  	<table width="980" height="61" border="0">
+  	<tr>
+      <td width="322" height="55"><img src="images/logo.png" height="80" /></td>
+      <td width="648" align="right" valign="bottom">
+        <div style="font-size:14px;"><a href="index.html"><strong>首&nbsp;&nbsp;&nbsp;页</strong></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+	    <a href="content.html?c=news"><strong>新闻中心</strong></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+	    <a href="content.html?c=solu"><strong>解决方案</strong></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+	    <a href="content.html?c=prod"><strong>产品服务</strong></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+	    <a href="content.html?c=abou"><strong>关于丰颖</strong></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+	    <a href="content.html?c=cont"><strong>联系我们</strong></a></div></td>
+  	</tr>
+	</table>
+  </div>
+  <div id="header">
+	<img src="images/header.jpg" height="260" align="middle"/>
+  </div>
+  <table width="100%" border="0" align="center">
+  <tr>
+    <td width="25%" align="center" valign="middle"><a href="#"><img src="images/i1.gif" /></a></td>
+    <td width="25%" align="center" valign="middle"><a href="#"><img src="images/i2.gif" /></a></td>
+    <td width="25%" align="center" valign="middle"><a href="#"><img src="images/i3.gif" /></a></td>
+    <td width="25%" align="center" valign="middle"><a href="#"><img src="images/i4.gif" /></a></td>
+  </tr>
+</table>
+
+  <div id="footer">
+  <hr />
+    <p>版权所有 © 2000-2012 广州丰颖通讯网络技术有限公司 粤ICP备11102345</p>
+  </div> 
+  </div>
+</body>
+</html>

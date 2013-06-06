@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>广州丰颖通讯网络技术有限公司</title>
+<link href="../../css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+function setTitle(str){
+	var tle = parent.document.getElementById("righttitle");
+	if(str=="Aruba"){
+		tle.innerHTML="<a href=\"#\" style=\"color:#000000;\" onclick=\"javascript:rightframe('prod')\">产品服务</a> > Aruba";
+	}else if(str=="Cisco"){
+		tle.innerHTML="<a href=\"#\" style=\"color:#000000;\" onclick=\"javascript:rightframe('prod')\">产品服务</a> > <a href=\"#\" style=\"color:#000000;\" onclick=\"javascript:rightframe('ISCO')\">CISCO</a>";
+	}
+}
+</script>
+</head>
+<body>
+<div id="rightframe">
+<table width="100%" border="0">
+  <tr>
+    <td width="50%" align="center" valign="bottom"><p><a href="aruba.html" onclick="javascript:setTitle('Aruba')"><img src="../../images/product/AP_Family_All.jpg"/><br />
+      Aruba</a></p></td>
+    <td width="50%" align="center" valign="bottom"><p><a href="CISCO/index.html" onclick="javascript:setTitle('Cisco')"><img src="../../images/product/cisco/2009061009014981870.jpg"/><br />
+      Cisco</a></p></td>
+  </tr>
+</table>
+</div>
+</body>
+</html>

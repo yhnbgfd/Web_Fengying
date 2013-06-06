@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>广州丰颖通讯网络技术有限公司</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+<!--
+function onload(){
+	//getParameter();
+	checkCookie();
+}
+var co = null;
+function getCookie(c_name){
+	if (document.cookie.length>0){
+  		c_start=document.cookie.indexOf(c_name + "=");
+  		if (c_start!=-1){ 
+    		c_start=c_start + c_name.length+1 ;
+    		c_end=document.cookie.indexOf(";",c_start);
+    		if (c_end==-1) c_end=document.cookie.length;
+    		return unescape(document.cookie.substring(c_start,c_end));
+    	}
+  	}
+	return "";
+}
+function setCookie(c_name,value,expiredays){
+	var exdate=new Date();
+	exdate.setDate(exdate.getDate()+expiredays);
+	document.cookie=c_name+ "=" +escape(value) + ((expiredays==null) ? "" : ";expires="+exdate.toGMTString());
+}
+function checkCookie(){
+	cookie = getCookie('para');
+	if (cookie!=null && cookie!="" && co == null){	//刷新(js var值清0)
+		rightframe(cookie);
+	} else if (cookie!=null && cookie!="" && co != null){	//跳转
+		   setCookie('para',co,1);
+	} else {
+		setCookie('para',co,1);
+	}
+
+}
+
+function getParameter(){
+	var s=location.search;
+	var para = s.substr(-4);
+	rightframe(para);
+}
+
+function rightframe(str){
+	co = str;
+	var obj = document.getElementById("rightframe");
+	var tle = document.getElementById("righttitle");
+	SetHeight();
+	if(str=="news"){
+		tle.innerHTML="新闻中心 > 行业新闻";
+		obj.src="content/news/hangye/index.html";
+	}else if(str=="prod"){
+		tle.innerHTML="<a href=\"#\" style=\"color:#000000;\" onclick=\"javascript:rightframe('prod')\">产品服务</a>";
+		obj.src="content/Product/index.html";
+	}else if(str=="abou"){
+		tle.innerHTML="关于丰颖";
+		obj.src="content/about.html";
+	}else if(str=="cont"){
+		tle.innerHTML="联系我们";
+		obj.src="content/contact.html";
+		
+	}else if(str=="hyxw"){	//行业新闻
+		tle.innerHTML="新闻中心 > <a href=\"#\" style=\"color:#000000;\" onclick=\"javascript:rightframe('hyxw')\">行业新闻</a>";
+		obj.src="content/news/hangye/index.html";
+	}else if(str=="gsxw"){	//公司新闻
+		tle.innerHTML="新闻中心 > <a href=\"#\" style=\"color:#000000;\" onclick=\"javascript:rightframe('gsxw')\">公司新闻</a>";
+		obj.src="content/news/fy2000/index.html";
+	}else if(str=="Aruba"){	//Aruba
+		tle.innerHTML="<a href=\"#\" style=\"color:#000000;\" onclick=\"javascript:rightframe('prod')\">产品服务</a> > Aruba";
+		obj.src="content/Product/aruba.html";
+	}else if(str=="Cisco"){	//CISCO
+		tle.innerHTML="<a href=\"#\" style=\"color:#000000;\" onclick=\"javascript:rightframe('prod')\">产品服务</a> > <a href=\"#\" style=\"color:#000000;\" onclick=\"javascript:rightframe('ISCO')\">Cisco</a>";
+		obj.src="content/Product/CISCO/index.html";
+	} else {
+		//rightframe('news');
+	}
+	checkCookie();
+}
+
+function SetHeight(){ 
+	var win=document.getElementById("rightframe"); 
+	if (document.getElementById) {
+		if (win.contentDocument && win.contentDocument.body.offsetHeight) {
+			win.height = win.contentDocument.body.offsetHeight+100;
+		}else if(win.Document && win.Document.body.scrollHeight){
+			win.height = win.Document.body.scrollHeight+100;
+		}
+		if(win.height < 400){
+			win.height =400;
+		}
+	}
+}
+window.setInterval( "SetHeight()",200);
+//-->
+</script>
+<style type="text/css">   
+.leftTable,.leftTable tr {   
+    border:1px solid #cccccc;   
+    border-collapse:collapse;  
+}
+</style>
+</head>
+<body onload="javascript:onload()">
+  <div id="site">
+  <div id="topmenu">
+  	<table width="980" style="height:61px" border="0">
+  	<tr>
+      <td width="5" height="55">&nbsp;</td>
+      <td width="307" align="left" valign="bottom"><img src="images/logo.png" alt="" height="80" /></td>
+      <td width="649" align="right" valign="bottom">
+      	<div style="font-size:14px;"><a href="index.html"><strong>首&nbsp;&nbsp;&nbsp;页</strong></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+	    <a href="#" onclick="javascript:rightframe('news')"><strong>新闻中心</strong></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+	    <a href="#" onclick="javascript:rightframe('prod')"><strong>产品服务</strong></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+	    <a href="#" onclick="javascript:rightframe('abou')"><strong>关于丰颖</strong></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+	    <a href="#" onclick="javascript:rightframe('cont')"><strong>联系我们</strong></a></div></td>
+  	</tr>
+	</table>
+  </div>
+  <div id="header" style="height: 180px;align:center">
+	<img src="images/contentheader.jpg"/>
+  </div>
+  <div id="left">
+	<table width="100%" border="0" bgcolor="#f6f8fb" class="leftTable">
+	  <tr>
+	    <td width="7%" height="28" style="background: url(images/about_right_pic2.gif)">&nbsp;</td>
+	    <td width="93%" style="background: url(images/about_right_pic2.gif)"><strong>新闻中心</strong></td>
+	  </tr>
+	  <tr>
+	    <td colspan="2"><table width="100%" border="0">
+	      <tr>
+	        <td><div align="center"><a href="#" onclick="javascript:rightframe('hyxw')"><strong>行业新闻</strong></a></div></td>
+	      </tr>
+	      <tr>
+            <td height="0.5px" bgcolor="#cfd0d2"></td>
+          </tr>
+	      <tr>
+	        <td><div align="center"><a href="#" onclick="javascript:rightframe('gsxw')"><strong>公司新闻</strong></a></div></td>
+	      </tr>
+	    </table></td>
+	  </tr>
+	  <tr>
+	    <td height="28" style="background: url(images/about_right_pic2.gif);">&nbsp;</td>
+	    <td height="28" style="background: url(images/about_right_pic2.gif);"><strong><a href="#" style="color:black" onclick="javascript:rightframe('prod')">产品服务</a></strong></td>
+	  </tr>
+	  <tr>
+	    <td colspan="2"><table width="100%" border="0">
+	      <tr>
+	        <td><div align="center"><a href="#" onclick="javascript:rightframe('Aruba')"><strong>Aruba</strong></a></div></td>
+	      </tr>
+	      <tr>
+	        <td height="0.5px" bgcolor="#cfd0d2"></td>
+	        </tr>
+	      <tr>
+	        <td><div align="center"><a href="#" onclick="javascript:rightframe('Cisco')"><strong>Cisco</strong></a></div></td>
+	      </tr>
+        </table></td>
+	  </tr>
+	  <tr>
+	    <td height="28" style="background: url(images/about_right_pic2.gif);">&nbsp;</td>
+	    <td height="28" style="background: url(images/about_right_pic2.gif);"><strong>关于我们</strong></td>
+      </tr>
+	  <tr>
+	    <td colspan="2"><table width="100%" border="0">
+	      <tr>
+	        <td><div align="center"><a href="#" onclick="javascript:rightframe('abou')"><strong>关于丰颖</strong></a></div></td>
+	        </tr>
+        </table></td>
+      </tr>
+	  <tr>
+	    <td height="28" style="background: url(images/about_right_pic2.gif);">&nbsp;</td>
+	    <td height="28" style="background: url(images/about_right_pic2.gif);"><strong>联系我们</strong></td>
+      </tr>
+	  <tr>
+	    <td colspan="2"><table width="100%" border="0">
+	      <tr>
+	        <td><div align="center"><a href="#" onclick="javascript:rightframe('cont')"><strong>联系我们</strong></a></div></td>
+	        </tr>
+        </table></td>
+      </tr>
+	</table>
+  </div>
+  <div id="right" >
+  <table width="100%" border="0" style="background: url(images/about_right_pic2.gif);">
+  <tr>
+    <td width="4%" height="25" ><img src="images/about_right_pic1.png" alt=""/></td>
+    <td width="96%" id="righttitle" >新闻中心</td>
+  </tr>
+  </table>
+  <iframe id="rightframe" src="" frameborder="0" scrolling="no" width="100%" height="400px"></iframe>
+  </div>
+  <div id="footer">
+  <hr />
+    <table width="511" border="0" align="center">
+      <tr>
+        <td width="96"><img src="images/logo.png" alt="" width="96" height="46" align="middle" /></td>
+        <td width="487" align="center">版权所有 © 2000-2012 广州丰颖通讯网络技术有限公司 <br />粤ICP备11102345</td>
+      </tr>
+    </table>
+  </div> 
+  </div>
+</body>
+</html>

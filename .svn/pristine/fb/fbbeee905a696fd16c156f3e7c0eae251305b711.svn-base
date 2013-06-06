@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>丰颖</title>
+<style type="text/css">
+#div1 table tr td {
+	font-size: 9px;
+	line-height:20px;
+}
+#div1 p {
+	font-size: 13px;
+	line-height:20px;
+}
+</style>
+</head>
+<body>
+<div id="div1" style="line-height:30px; font-size:15px;padding:0px 10px 0px 0px;">
+<h3 align="center">Catalyst 3750系列交换机</h3>
+<div align="center"><img src="../../../images/product/cisco/2009061009023956545.jpg" width="300" /></div><br />
+<p>
+　　思科新推出的Cisco Catalyst 3750系列交换机是一个创新的产品系列，它结合业界领先的易用性和最高的冗余性，里程碑地提升了堆叠式交换机在局域网中的工作效率。这个新的产品系列采用了最新的思科StackWise技术，不但实现高达32Gbps的堆叠互联，还从物理上到逻辑上使若干独立交换机在堆叠时集成在一起，便于用户建立一个统一、高度灵活的交换系统--就好像是一整台交换机一样。这代表了堆叠式交换机新的工业技术水平和标准。<br />
+<br />
+　　对于中型组织和企业分支机构而言，Cisco Catalyst 3750系列可以通过提供配置灵活性，支持融合网络模式，已经自动配置智能化网络服务，降低融合应用的部署难度，适应不断变化的业务需求。此外，Cisco Catalyst 3750系列针对高密度千兆位以太网部署进行了专门的优化，其中包含多种可以满足接入、汇聚或者小型网络骨干网连接需求的交换机。<br />
+<br />
+目前产品型号包括：<br />
+<br />
+•   Catalyst 3750G-24TS，配有24 个10/100/1000端口和4个小型可插拔（SFP）上行链路。 <br />
+•   Catalyst 3750G-24T，配有24 个10/100/1000端口。 <br />
+•   Catalyst 3750-24TS，配有24个10/100端口和2个SFP上行链路。 <br />
+•   Catalyst 3750-48TS，配有48个10/100端口和4个SFP上行链路。<br />
+<br />
+Cisco Catalyst 3750 系列交换机预计将于6月开始向客户发售。每台交换机都可以升级到一个增强的软件版本。<br />
+</p>
+</div>
+</body>
+</html>
